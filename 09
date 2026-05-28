@@ -1,0 +1,10 @@
+let ladoA = Number  (prompt("Digite o comprimento do primeiro lado (A):"));
+let ladoB = Number  (prompt("Digite o comprimento do segundo lado (B):"));
+let ladoC = Number  (prompt("Digite o comprimento do terceiro lado (C):"));
+
+
+if ((ladoA + ladoB > ladoC) && (ladoA + ladoC > ladoB) && (ladoB + ladoC > ladoA)) {
+    alert("É possível formar um triângulo!");
+} else {
+    alert("Não é possível formar um triângulo.");
+}

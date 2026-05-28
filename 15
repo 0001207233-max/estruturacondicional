@@ -1,0 +1,6 @@
+let base= Number  (prompt("Digite um número:"));
+let altura= Number  (prompt("Digite outro número:"));
+
+multiplicacao = base * altura;
+
+alert(`O resultado da área é: ${multiplicacao}`);

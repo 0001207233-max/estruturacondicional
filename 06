@@ -1,0 +1,25 @@
+let numero1 = Number(prompt("Digite um número:"));
+let numero2 = Number(prompt("Digite um número:"));
+let operacao = prompt("Digite a operação desejada (soma, subtração, multiplicação ou divisão):");
+
+if (operacao === "soma") {
+    let resultado = (numero1) + (numero2);
+    alert("O resultado da soma é: " + resultado);
+} else if (operacao === "subtração") {
+    let resultado = (numero1) - (numero2);
+    alert("O resultado da subtração é: " + resultado);
+}
+
+else if (operacao === "multiplicação") {
+    let resultado = (numero1) * (numero2);
+    alert("O resultado da multiplicação é: " + resultado);
+} 
+
+else if (operacao === "divisão") {
+    let resultado = (numero1) / (numero2);
+    alert("O resultado da divisão é: " + resultado);
+} 
+
+else {
+    alert("Operação inválida. Por favor, escolha entre soma, subtração, multiplicação ou divisão.");
+}

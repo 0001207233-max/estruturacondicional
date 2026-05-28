@@ -1,0 +1,10 @@
+let nome =  (prompt("Digite o seu nome:"));
+let idade = Number  (prompt("Digite a sua idade:"));
+
+
+
+if (idade >= 18) {
+    alert("Bem-vindoa(a) " + nome + ", você é maior de idade!");
+} else {
+    alert("Acesso negado. Você é menor de idade!");
+}

@@ -1,0 +1,10 @@
+let numero = prompt("Digite um número:");
+let soma = numero + 10;
+
+if (soma > 0) {
+    alert ("O resultado é positivo.");
+} else if (soma < 0) {
+    alert ("O resultado é negativo.");
+} else {
+    alert("O resultado é zero (neutro).");
+}

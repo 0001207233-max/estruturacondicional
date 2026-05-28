@@ -1,0 +1,10 @@
+let numero1= prompt("Digite um número: ")
+let numero2= prompt("Digite um número: ")
+
+if(numero1>numero2){
+    alert(`${numero1} é maior que ${numero2}`)
+}else if (numero2>numero1){
+    alert(`${numero2} é maior que ${numero1}`)
+}else{
+    alert("Os números são iguais.")
+}

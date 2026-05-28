@@ -1,0 +1,11 @@
+let nota = Number  (prompt("Digite sua nota:"));
+
+
+
+if (nota >= 6) {
+    alert("Parabéns! Você foi aprovado com a nota " + nota);
+} else if (nota==5) {
+    alert("Infelizmente, você está de recuperação com a nota " + nota);
+} else  {
+    alert("Você foi REPROVADO!");
+}

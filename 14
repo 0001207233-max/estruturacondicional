@@ -1,0 +1,9 @@
+let numero= Number  (prompt("Digite um número:"));
+
+if (numero % 2 === 0) {
+    let dobro = numero * 2;
+    c(`O número é par. O dobro é: ${dobro}`);
+} else {
+    let triplo = numero * 3;
+    alert(`O número é ímpar. O triplo é: ${triplo}`);
+}

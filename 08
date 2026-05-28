@@ -1,0 +1,8 @@
+let numero = Number(prompt("Digite um número:"));
+
+if(numero>=7){
+    alert("APROVADO");
+}else{
+    alert("REPROVADO");
+}
+

@@ -1,0 +1,8 @@
+let numero = prompt("Digite um número:");
+
+
+if (numero%3 === 0 && numero%5 === 0) {
+    alert ("O resultado é múltiplo de 3 e 5.");
+} else {
+    alert("O resultado não é múltiplo de 3 e 5.");
+}

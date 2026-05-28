@@ -1,0 +1,8 @@
+let numero1 = Number  (prompt("Digite um número:"));
+let numero2= Number  (prompt("Digite outro número:"));
+
+if (numero1%numero2==0) {
+    alert("São multiplos!");
+} else  {
+    alert("Não são multiplos!");
+}

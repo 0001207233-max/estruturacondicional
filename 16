@@ -1,0 +1,8 @@
+let letra = prompt("Digite uma letra:").toLowerCase();
+
+// Valida se o texto contém uma vogal
+if ("aeiouáéíóúâêîôûãõ".includes(letra)) {
+    alert ("É uma vogal!");
+} else {
+    alert ("É uma consoante.");
+}

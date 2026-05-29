@@ -1,0 +1,21 @@
+alert("Selecione a sua faixa etária:");
+alert("1 - Criança (0–12)\n2 - Adolescente (13–17)\n3 - Adulto (18–59)\n4 - Idoso (60+)");
+
+let opcao = parseInt(prompt("Digite o número da sua faixa etária:"));
+
+switch (opcao) {
+    case 1:
+        alert("Classificação: Criança");
+        break;
+    case 2:
+        alert("Classificação: Adolescente");
+        break;
+    case 3:
+        alert("Classificação: Adulto");
+        break;
+    case 4:
+        alert ("Classificação: Idoso");
+        break;
+    default:
+        alert ("Opção inválida!");
+}

@@ -1,0 +1,24 @@
+alert ("--- CARDÁPIO LANCHONETE ---");
+alert ("1 - Cachorro Quente (R$ 12,00)");
+alert ("2 - X-Burguer (R$ 18,50)");
+alert ("3 - Batata Frita (R$ 10,00)");
+alert ("4 - Refrigerante (R$ 6,00)");
+
+let codigo = parseInt(prompt("Escolha o código do produto:"));
+
+switch (codigo) {
+    case 1:
+        alert("Produto escolhido: Cachorro Quente | Preço: R$ 12,00");
+        break;
+    case 2:
+        alert("Produto escolhido: X-Burguer | Preço: R$ 18,50");
+        break;
+    case 3:
+        alert("Produto escolhido: Batata Frita | Preço: R$ 10,00");
+        break;
+    case 4:
+        alert("Produto escolhido: Refrigerante | Preço: R$ 6,00");
+        break;
+    default:
+        alert ("Código inválido!");
+}

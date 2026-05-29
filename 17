@@ -1,0 +1,6 @@
+let numero = Number (prompt("Digite uma número:"));
+
+porcentagem= numero*0.1
+resultado=numero-porcentagem
+alert("O valor final é " + resultado)
+
